@@ -1,3 +1,6 @@
+
+พรทิพย์  เกิดรัตน์  57030199
+
 #ใบงานที่ 6
 ##เรื่อง การใช้งานคำสั่ง Console.Read() และ Console.ReadLine()
 ##วัตถุประสงค์
@@ -18,6 +21,12 @@
  ![](https://github.com/Desktop-Programming-Lab-2559/LAB-06/blob/master/imgs/pic1.png)
 
   2.2).	โปรแกรม และบันทึกผลที่ได้
+  
+  ตอบ ในหน้าต่างcommandline จะปรากฎข้อความ  Press a key Followed by Enter: เมื่อพิมไปหนึ่งตัวอักษรจะขึ้นข้อความ
+  
+  Your key is : ตามด้วยตัวอักษรที่เราพิมไปหากพิมไปมากกว่าหนึ่งตัวมันจะแสดงแค่ตัวแรกเท่านั้น
+  
+  ![](https://github.com/prontip/LAB-06/blob/master/imgs/lab6_1.png?raw=true)
 <hr>
 <hr>
 <hr>
@@ -26,6 +35,10 @@
 <hr>
 
 ###คำถาม 6.1 ถ้าพิมพ์ตัวอักษรจำนวนหลายๆ ตัวแล้วกด Enter จะได้ผลอย่างไร ทำไมจึงเป็นเช่นนั้น
+
+ตอบ เมื่อพิมไปหนึ่งตัวอักษรจะขึ้นข้อความ Your key is : ตามด้วยตัวอักษรที่เราพิมไป 
+
+หากพิมไปมากกว่าหนึ่งตัวมันจะแสดงแค่ตัวแรกเท่านั้น เพราะ char เก็บเป็นตัวอักษร
 <hr>
 <hr>
 <hr>
@@ -34,6 +47,11 @@
 <hr>
 
 ###คำถาม 6.2 ในบรรทัดที่ 11 ซึ่งมีโปรแกรมเป็น ```ch = (char)Console.Read();```  นั้น ถ้าตัด ```(char)``` ออกไป จะเกิดอะไรขึ้น ให้อธิบายประกอบ
+
+ตอบ โปรแกรมจะเออเร่อ
+
+![](https://github.com/prontip/LAB-06/blob/master/imgs/lab6_2.png?raw=true)
+
 <hr>
 <hr>
 <hr>
@@ -48,6 +66,10 @@
  ![](https://github.com/Desktop-Programming-Lab-2559/LAB-06/blob/master/imgs/pic2.png)
  
  3.2).	โปรแกรม และบันทึกผลที่ได้
+ 
+ ตอบจะปรากฎดังภาพ จะขึ้นข้อความที่เราพิมพ์ต่อจาก Your entered:
+ 
+ ![](https://github.com/prontip/LAB-06/blob/master/imgs/lab6_3.png?raw=true)
 <hr>
 <hr>
 <hr>
@@ -62,6 +84,8 @@
  ![](https://github.com/Desktop-Programming-Lab-2559/LAB-06/blob/master/imgs/pic3.png)
 
 4.2).	รัน โปรแกรม โดยป้อนตัวเลขใดๆ และบันทึกผลที่ได้
+
+![](https://github.com/prontip/LAB-06/blob/master/imgs/lab6_4.png?raw=true)
 <hr>
 <hr>
 <hr>
@@ -70,6 +94,10 @@
 <hr>
 
 ###คำถาม 6.3 ถ้าเราป้อนตัวอักษรลงไปแทนที่ตัวเลข จะเกิดอะไรขึ้น มีวิธีการป้องกันหรือแก้ไขอย่างไร
+
+ตอบ จะเออเร่อ เพราะชนิดข้อมูลไม่ตรงกัน เขียนกำกับไว้ว่ให้ใส่ตัวเลขหรือตัวอักษร
+
+![](https://github.com/prontip/LAB-06/blob/master/imgs/lab6_5.png?raw=true)
 <hr>
 <hr>
 <hr>
@@ -84,6 +112,10 @@
   ![](https://github.com/Desktop-Programming-Lab-2559/LAB-06/blob/master/imgs/pic4.png)
 
   5.2).	รัน โปรแกรม โดยป้อนตัวเลขใดๆ และบันทึกผลที่ได้
+  
+  ตอบ จะขึ้นให้ใส่สองค่าแล้วกดEnterตอนใส่ค่าที่สองเสร็จแล้วจะมีค่าผลรับการบวกของค่าสองค่าที่ใส่
+  
+  ![](https://github.com/prontip/LAB-06/blob/master/imgs/lab6_6.png?raw=true)
 <hr>
 <hr>
 <hr>
@@ -92,6 +124,10 @@
 <hr>
 
 ###คำถาม 6.4 ถ้าเราป้อนตัวอักษรลงไปแทนที่ตัวเลข จะเกิดอะไรขึ้น เหมือนหรือต่างจากโปรแกรมก่อนหน้านี้อย่างไร
+
+ตอบ มันจะขึ้นเตือนว่าผิดชนิดเหมือนเดิมแต่โปรแกรมจะไม่ปิดตัวเอง
+
+![](https://github.com/prontip/LAB-06/blob/master/imgs/lab6_7.png?raw=true)
 <hr>
 <hr>
 <hr>
@@ -106,4 +142,9 @@
 
 ``` ID : (ป้อนรหัสนักศึกษา).```
 
-``` GPA : (ป้อนเกรดเฉลี่ยนักศึกษา โดยมีทศนิยมสองหลัก).```
+``` GPA : (ป้อนเกรดเฉลี่ยนักศึกษา โดยมีทศนิยมสองหลัก).
+
+
+![](https://github.com/prontip/LAB-06/blob/master/imgs/lab6_8.png?raw=true)
+
+
